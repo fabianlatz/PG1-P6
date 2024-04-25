@@ -4,7 +4,7 @@
 
 #include "Buchung.h"
 
-int Buchung::numOfBuchungen = 0;
+int Buchung::numOfBuchungen = 1;
 
 Buchung::Buchung(const std::string& nachname, const std::string& vorname) : nachname(nachname), vorname(vorname) {
 	buchungsNummer = std::to_string(++numOfBuchungen);
